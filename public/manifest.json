@@ -1,0 +1,21 @@
+{
+    "short_name": "test app",
+    "name": "web test app",
+    "icons":
+    [
+        {
+            "src": "http://localhost:8001/wp_plugin_dev/wp-content/plugins/kianland_core/public/images/icons/test-icon-192.png",
+            "type": "image/png",
+            "size": "192x192"
+        },
+        {
+            "src": "http://localhost:8001/wp_plugin_dev/wp-content/plugins/kianland_core/public/images/icons/test-icon-512.png",
+            "type": "image/png",
+            "size": "512x512" 
+        }
+    ],
+    "start_url": "http://localhost:8001/wp_plugin_dev",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "theme_color": "#3367D6"
+}

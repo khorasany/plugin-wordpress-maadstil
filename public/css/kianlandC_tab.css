@@ -1,0 +1,43 @@
+.kc-tab-menu {
+}
+
+.kc-tab-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.kc-tab-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.kc-tab-menu ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: #b4cbc4;
+    padding: 7px 25px;
+    border-radius: 4px;
+}
+
+.kc-tab-menu ul li a.active-a {
+    background-color: #588d7d;
+    color: #ffffff;
+}
+
+.kc-tab-items {
+    display: none;
+}
+
+.kc-tab-items h2 {
+    color: rgba(0, 0, 0, .7);
+    background-color: #0c0c0c;
+}
+
+.kc-tab-items p {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+}
+
+.tab-active {
+    display: block;
+}
