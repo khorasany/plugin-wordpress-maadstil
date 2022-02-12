@@ -1,0 +1,224 @@
+.kc-wrapper {
+    padding-left:  20px;
+}
+
+
+.kc-button {
+    height: auto;
+    margin: 3em;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    border: 0;
+    padding: 1em;
+    color: #fff;
+    background: #2ea2cc;
+}
+
+.kc-button:hover, .kc-button:focus {
+    background-color: royalblue;
+}
+
+.kc-button-2 {
+    height: auto;
+    padding: 1em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    border: 0;
+    color: #fff;
+    background: #2ea2cc;
+}
+
+.kc-button-2:hover, .kc-button-2:focus {
+    background: #0073aa;
+}
+
+.kc-button-3 {
+    height: auto;
+    padding: 0.7rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    border: 0;
+    color: #fff;
+    background: #2ea2cc;
+}
+
+.kc-button-3:hover, .kc-button-3:focus {
+    background: #0073aa;
+}
+
+.kc-error-span {
+    color: #f44336;
+    margin: 10px;
+    display: block;
+}
+
+.kc-header{
+    margin: 2em;
+}
+
+.kc-hidden-element{
+    display: none;
+}
+
+.kc-button:hover, .kc-button:focus{
+
+}
+
+.kc-button-block{
+    display: block;
+}
+
+.kc-success-span {
+    color: #00db02;
+    margin: 10px;
+    display: block;
+}
+
+.kc-add-dvc-img {
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.kc-dvc-list-img {
+    width: 250px;
+    height: 100%;
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.kc-header-area {
+    margin: 30px;
+}
+
+.kc-counter-span {
+    font-size: large;
+    display: block;
+    margin: 15px;
+}
+
+.kc-info-label {
+    display: block;
+    padding: 15px;
+}
+
+.kc-input {
+    margin: 5px;
+}
+
+.kc-input-label {
+    display: block;
+}
+
+.kc-add-hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.kc-device-divider-hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 3px;
+    background-color: #ccc;
+    border: none;
+}
+
+.device_data textarea {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    display: block;
+}
+
+.kc-disabled {
+    color: #2C3338;
+}
+
+.kc-button-edit {
+    float: left;
+    margin: 100px;
+    font-size: medium;
+}
+
+#devicesTable {
+    width: 100%;
+}
+
+.kc-devices-counter {
+    text-align: center;
+}
+
+.kc-button-round {
+    border-radius: 50%;
+}
+
+.kc-accordion {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .kc-accordion:hover {
+    background-color: #ccc;
+}
+
+.kc-panel {
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.kc-panel input {
+    display: block;
+    margin-top: 10px;
+}
+
+.kc-panel .kc-input-label {
+    padding: 15px;
+    display: inline-grid;
+}
+
+.kc-panel textarea {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.kc-main-device-info {
+    margin-top: 10px;
+}
+
+.kc-main-device-info label {
+    padding: 15px;
+    display: inline-grid;
+}
+
+.kc-device-edit-form input[type=text] {
+    display: none;
+}

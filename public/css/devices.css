@@ -1,0 +1,161 @@
+.kc-span-search {
+    font-size: 20px;
+
+}
+
+.kc-dvc-button {
+    max-width: 50px;
+    background: #00a6f7;
+    border: 0;
+    height: 30px
+}
+
+.kc-device-image {
+    text-align: -moz-center;
+}
+.kc-device-image img {
+    /*min-width: 80vh;*/
+    /*max-width: 100vh;*/
+    height: auto;
+    width: 800px;
+
+    object-fit: contain;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.kc-all-device-elements input[disabled] {
+    color: #2C3338;
+    font-size: 16px;
+    opacity: 1;
+}
+
+.kc-all-device-elements label {
+    font-size: 16px;
+}
+
+.kc-all-device-elements textarea[disabled] {
+    width: 40%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    display: block;
+    color: #2C3338;
+    opacity: 1;
+}
+
+.kc-all-device-elements hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+/* TIMER STYLES START */
+
+.kc-timer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.kc-timer-border {
+    border: 2px solid #ccc;
+    padding: 3rem;
+}
+
+.kc-timer h2 {
+    font-size: medium;
+    font-weight: bold;
+    padding: 1rem;
+    margin-right: 25px;
+}
+
+.kc-countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.kc-counter-second, .kc-counter-minute, .kc-counter-hour, .kc-counter-day {
+    font-size: 3rem;
+}
+
+.kc-container-minute, .kc-container-hour, .kc-container-day {
+    padding-right: 3rem;
+}
+
+/* TIMER STYLES START */
+
+.kc-main-device-info {
+    margin-top: 10px;
+}
+
+.kc-main-device-info label {
+    padding: 15px;
+    display: inline-grid;
+}
+
+.kc-input {
+    margin: 5px;
+}
+
+.kc-accordion {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.active, .kc-accordion:hover {
+    background-color: #ccc;
+}
+
+.kc-panel {
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.kc-panel input {
+    display: block;
+    margin-top: 10px;
+}
+
+.kc-panel .kc-input-label {
+    padding: 15px;
+    display: inline-grid;
+}
+
+.kc-panel textarea {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.kc-info-label {
+    display: block;
+    padding: 15px;
+}
+
+.kc-hidden-element {
+    display: none;
+}
+
+.kc-device-header {
+    margin-bottom: 1rem;
+}

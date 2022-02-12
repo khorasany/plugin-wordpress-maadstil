@@ -1,0 +1,1 @@
+<?php// this methodfunction kiancore_on_uninstall(){    if (!current_user_can('activate_plugins')) exit;}register_uninstall_hook(__FILE__, 'kiancore_on_uninstall');

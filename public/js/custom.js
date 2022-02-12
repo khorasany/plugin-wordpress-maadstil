@@ -1,0 +1,1 @@
+setTimeout(()=>{    addToHomescreen();},5000);

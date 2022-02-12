@@ -1,0 +1,200 @@
+.kc-form-error {
+    text-decoration: underline;
+    border-bottom: 1px blue;
+}
+
+.kc-anchor-reg {
+    font-size: medium;
+}
+
+.kc-anchor-container {
+    margin-top: 20px;
+}
+
+/* new form login styles */
+
+
+.kc-form *, .kc-form *:before, .kc-form *:after {
+    box-sizing: border-box;
+}
+
+.kc-form a {
+    text-decoration: none;
+    color: #1ab188;
+    transition: 0.5s ease;
+}
+.kc-form a:hover {
+    color: #179b77;
+}
+.kc-form {
+    background: rgba(19, 35, 47, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.kc-form .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+.kc-form .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.kc-form .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.kc-form .tab-group li a:hover {
+    background: #179b77;
+    color: #fff;
+}
+.kc-form .tab-group .active a {
+    background: #1ab188;
+    color: #fff;
+}
+.kc-form .tab-content > div:last-child {
+    display: none;
+}
+.kc-form h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+.kc-form label {
+    position: absolute;
+    transform: translateY(6px);
+    left: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 22px;
+}
+.kc-form label .req {
+    margin: 2px;
+    color: #1ab188;
+}
+.kc-form label.active {
+    transform: translateY(50px);
+    left: 2px;
+    font-size: 12px;
+}
+.kc-form label.active .req {
+    opacity: 0;
+}
+.kc-form label.highlight {
+    color: #fff;
+}
+.kc-form input, .kc-form textarea {
+    font-size: 22px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    color: #fff;
+    border-radius: 0;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.kc-form input:focus, .kc-form textarea:focus {
+    outline: 0;
+    border-color: #1ab188;
+}
+.kc-form textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+.kc-form .field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.kc-form .field-wrap .forgot-link  {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+.kc-form .top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.kc-form .top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.kc-form .top-row > div:last-child {
+    margin: 0;
+}
+.kc-form .button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #1ab188;
+    color: #fff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.kc-form .button:hover, .kc-form .button:focus {
+    background: #179b77;
+}
+.kc-form .button-block {
+    display: block;
+    width: 100%;
+}
+.kc-form .button-small {
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.kc-form .forgot {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button-o {
+    margin-bottom: 1rem;
+}
+
+.kc-hidden-div {
+    display: none !important;
+}
+
+.kc-form .return {
+    margin: 0 0 2rem 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.kc-token-timer {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin-top: 1rem;
+
+}
